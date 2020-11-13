@@ -22,11 +22,12 @@ const { signMessage } = require("@jm9k/nervos-lumos-sign-message");
 
 const nodeUrl = "http://127.0.0.1:8114/";
 const privateKey = "0xd00c06bfd800d27397002dca6fb0993d5ba6399b4238b2f29ee9deb97593d2bc";
+const lockArg = "0xc8328aabcd9b9e8e64fbc566c4385c3bdeb219d7";
 const script =
 {
 	code_hash: "0x9bd7e06f3ecf4be0f2fcd2188b23f1b9fcc88e5d4b65a8637b17723bbda3cce8",
 	hash_type: "type",
-	args: "0xc8328aabcd9b9e8e64fbc566c4385c3bdeb219d7"
+	args: lockArg
 };
 
 async function main()
