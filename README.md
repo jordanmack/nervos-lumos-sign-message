@@ -2,6 +2,14 @@
 
 A function for Nervos' Lumos framework to sign a message using an Secp256k1 private key.
 
+### Installation
+
+In your Node.js project directory type:
+
+```sh
+npm i @jm9k/nervos-lumos-sign-message
+```
+
 ### Usage Example
 
 ```javascript
