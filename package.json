@@ -1,0 +1,32 @@
+{
+  "name": "@jm9k/nervos-lumos-sign-message",
+  "version": "0.6.3",
+  "description": "A function for Nervos' Lumos framework to sign a message using an Secp256k1 private key.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jordanmack/nervos-lumos-sign-message.git"
+  },
+  "keywords": [
+    "nervos",
+    "ckb",
+    "lumos",
+    "framework",
+    "sign",
+    "message",
+    "signMessage"
+  ],
+  "author": "Jordan Mack <jordan@nervos.org> (https://jordanmack.info/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jordanmack/nervos-lumos-sign-message/issues"
+  },
+  "homepage": "https://github.com/jordanmack/nervos-lumos-sign-message#readme",
+  "dependencies": {
+    "ckb-js-toolkit": "^0.9.2",
+    "secp256k1": "^4.0.2"
+  }
+}
