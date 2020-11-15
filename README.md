@@ -44,7 +44,7 @@ async function main()
 	skeleton = secp256k1Blake160.prepareSigningEntries(skeleton);
 
 	const signingEntries = skeleton.get("signingEntries").toArray();
-	const signature = signMessage(privateKey, signingEntries[0].message).serializeJson();
+	const signature = signMessage(privateKey, signingEntries[0].message);
 	const tx = sealTransaction(skeleton, [signature]);
 
 	const rpc = new RPC(nodeUrl);

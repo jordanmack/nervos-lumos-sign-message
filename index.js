@@ -12,7 +12,7 @@ function signMessage(privateKey, message)
 	array.set(signature, 0);
 	array.set([recid], 64);
 
-	return new Reader(array.buffer);
+	return new Reader(array.buffer).serializeJson();
 }
 
 module.exports = {signMessage};

@@ -1,6 +1,6 @@
 {
   "name": "@jm9k/nervos-lumos-sign-message",
-  "version": "0.6.6",
+  "version": "0.7.0",
   "description": "A function for Nervos' Lumos framework to sign a message using an Secp256k1 private key.",
   "main": "index.js",
   "scripts": {
